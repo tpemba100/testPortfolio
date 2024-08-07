@@ -27,5 +27,15 @@
     "styled-components": "^4.0.3",
     "ua-parser-js": "^0.7.19",
     "vh-check": "^2.0.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpemba100/testPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpemba100/testPortfolio/issues"
+  },
+  "homepage": "https://github.com/tpemba100/testPortfolio#readme"
 }
