@@ -1,7 +1,7 @@
 {
   "name": "my_portfolio",
   "version": "1.0.0",
-  "description": "Suresh Murali's Portfolio",
+  "description": "Portfolio",
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,16 +9,6 @@
     "build": "parcel build src/index.html",
     "deploy": "git subtree push --prefix docs origin gh-pages"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sureshmurali/My-Portfolio.git"
-  },
-  "author": "Suresh Murali",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sureshmurali/My-Portfolio/issues"
-  },
-  "homepage": "https://github.com/sureshmurali/My-Portfolio#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
