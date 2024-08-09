@@ -30,13 +30,15 @@ class Work extends Component {
       },
       {
         number: '01',
-        projectName: 'FR Design system',
-        projectDesc: 'Multi brand e-commerce design system for websites and native mobile applications.',
-        projectType: 'DESIGN SYSTEM',
-        roles: ['Design system lead', 'Technical PDM'],
+        projectName: 'Hyolmo Society',
+        // FastRetailing
+        projectDesc: 'A community non-profit organization based in NY',
+        projectType: 'WEBSITE',
+        roles: ['Design lead', 'Admin'],
       },
       {
         number: '02',
+        // projectName: 'LASHIC',
         projectName: 'LASHIC',
         projectDesc: "Mobile app and websites for senior citizen facility's caregivers, service managers and admins.",
         projectType: 'APP SUITE',
