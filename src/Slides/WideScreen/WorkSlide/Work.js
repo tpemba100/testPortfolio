@@ -39,10 +39,10 @@ class Work extends Component {
       {
         number: '02',
         // projectName: 'LASHIC',
-        projectName: 'LASHIC',
-        projectDesc: "Mobile app and websites for senior citizen facility's caregivers, service managers and admins.",
-        projectType: 'APP SUITE',
-        roles: ['Design lead'],
+        projectName: 'SPEAK PEAK',
+        projectDesc: "A mobile app that helps you learn a new language faster.",
+        projectType: 'APP DESIGN, CASE STUDY',
+        roles: ['UX Design', 'UX Research'],
       },
       {
         number: '03',

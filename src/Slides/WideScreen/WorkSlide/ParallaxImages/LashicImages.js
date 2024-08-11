@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import alertImg from '../../../../Assets/Images/Lashic/Alert.png';
-import taskImg from '../../../../Assets/Images/Lashic/Task.png';
-import customersImg from '../../../../Assets/Images/Lashic/Customers.png';
-import customerDetailImg from '../../../../Assets/Images/Lashic/CustomerDetail.png';
+// import alertImg from '../../../../Assets/Images/Lashic/Alert.png';
+// import taskImg from '../../../../Assets/Images/Lashic/Task.png';
+// import customersImg from '../../../../Assets/Images/Lashic/Customers.png';
+// import customerDetailImg from '../../../../Assets/Images/Lashic/CustomerDetail.png';
+import SPEAK1 from '../../../../Assets/Images/Lashic/SPEAK1.png';
+import SPEAK2 from '../../../../Assets/Images/Lashic/SPEAK2.png';
+import SPEAK3 from '../../../../Assets/Images/Lashic/SPEAK3.png';
+import SPEAK4 from '../../../../Assets/Images/Lashic/SPEAK4.png';
 
-const Task = styled.img.attrs({
+const LOGIN = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 15}%)`,
   }),
@@ -19,7 +23,7 @@ left:0vw;
 height: 80vh; 
 `;
 
-const Alert = styled.img.attrs({
+const NEPALI = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 8}%) scale(0.9)`,
   }),
@@ -33,7 +37,7 @@ height: 80vh;
 filter: blur(0.6px);
 `;
 
-const CustomerDetail = styled.img.attrs({
+const HOME = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 5}%) scale(0.7)`,
   }),
@@ -47,7 +51,7 @@ height: 80vh;
 filter: blur(0.8px);
 `;
 
-const Customers = styled.img.attrs({
+const LEARN = styled.img.attrs({
   style: ({ scroll }) => ({
     transform: `translate(0px,-${(scroll) * 2}%) scale(0.6)`,
   }),
@@ -74,10 +78,10 @@ class LashicImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <CustomerDetail src={customerDetailImg} scroll={scrollPercent} alt="customerDetails" />
-        <Customers src={customersImg} scroll={scrollPercent} alt="customers" />
-        <Alert src={alertImg} scroll={scrollPercent} alt="Alert" />
-        <Task src={taskImg} scroll={scrollPercent} alt="Task" />
+        <LOGIN src={SPEAK1} scroll={scrollPercent} alt="Task" />
+        <NEPALI src={SPEAK2} scroll={scrollPercent} alt="Alert" />
+        <HOME src={SPEAK3} scroll={scrollPercent} alt="customerDetails" />
+        <LEARN src={SPEAK4} scroll={scrollPercent} alt="customers" />
       </React.Fragment>
     );
   }
